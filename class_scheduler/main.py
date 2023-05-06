@@ -3,7 +3,7 @@ from telebot import types
 from weeknow import curr_week_for_bd, curr_week
 from execute import get_day_formatting, get_week_formatting
 
-token = "6187671305:AAF1kSjUWG0CHDM_fRmw4zN9CqHnvQ-HPyY"
+token = "Your token"
 bot = telebot.TeleBot(token)
 
 

@@ -26,7 +26,7 @@ def get_day(week, day):
 
         cursor.execute(f'SELECT start_time FROM time WHERE id = {classroom[1]}')
         time = cursor.fetchone()[0]
-        day1.append(time)
+        day1.append(time) # append это метод в Python, который используется для добавления элемента в конец списка или массива.
 
         cursor.execute(f'SELECT name FROM subject WHERE id = {subject}')
         subj = cursor.fetchone()[0]
